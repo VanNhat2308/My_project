@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: rgb(113,109,201);
+}
+
+nav{
+    background-color: rgb(12, 132, 136);
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    max-width: 1360px;
+    margin-right: 500px;
+}
+.content{
+    display: flex;
+}
+.sanpham{
+ width: 911px;
+ height: auto;
+
+}
+.sanpham nav {
+    background-color: aliceblue;
+    display: flex;
+    margin: 10px;
+    
+}
+.sanpham nav ul{
+    margin: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.sanpham nav ul li{
+   justify-content: space-around;
+   margin-right: 40px;
+
+}
